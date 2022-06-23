@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "Hoan"
+    },
+    {
+      "name": "data post",
+      "createdAt": 1655954531489,
+      "updateAt": 1655954531489,
+      "id": 2
+    },
+    {
+      "name": "data post",
+      "createdAt": 1655954532679,
+      "updateAt": 1655954532679,
+      "id": 3
+    },
+    {
+      "name": "data post",
+      "createdAt": 1655954534039,
+      "updateAt": 1655954534039,
+      "id": 4
+    },
+    {
+      "name": "data post",
+      "createdAt": 1655954534725,
+      "updateAt": 1655954534725,
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "datas": [
+    {
+      "id": 1,
+      "body": "some data",
+      "postId": 1
+    },
+    {
+      "name": "New data",
+      "createdAt": 1655955492097,
+      "updateAt": 1655955494625,
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

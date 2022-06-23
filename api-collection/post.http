@@ -1,0 +1,51 @@
+@baseUrl = http://localhost:3000/api
+
+
+# Datas
+
+# @name getDatas
+
+GET  {{baseUrl}}/posts
+
+###
+
+# @name addNewData
+
+POST {{baseUrl}}/posts
+Content-Type: application/json
+
+{
+    "name" : "data post"
+}
+
+###
+
+#  @name editData
+
+PATCH {{baseUrl}}/posts/2
+Content-Type: application/json
+
+{
+    "name": "New data"
+}
+
+###
+
+#  @name deleteData
+
+DELETE http://localhost:3000/api/posts/2
+
+###
+
+# @name fillter
+GET {{baseUrl}}/posts?author_like=Hoan
+
+###
+
+# @name sortDESC
+GET {{baseUrl}}/posts?_sort=id&_order=desc
+
+###
+
+# @name limit 
+GET {{baseUrl}}/posts?_page=1
